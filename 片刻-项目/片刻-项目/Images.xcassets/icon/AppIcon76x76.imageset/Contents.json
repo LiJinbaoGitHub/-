@@ -2,13 +2,13 @@
   "images" : [
     {
       "idiom" : "ipad",
-      "filename" : "AppIcon76x76~ipad.png",
-      "scale" : "1x"
+      "scale" : "1x",
+      "filename" : "AppIcon76x76~ipad.png"
     },
     {
       "idiom" : "ipad",
-      "filename" : "AppIcon76x76@2x~ipad.png",
-      "scale" : "2x"
+      "scale" : "2x",
+      "filename" : "AppIcon76x76@2x~ipad.png"
     }
   ],
   "info" : {

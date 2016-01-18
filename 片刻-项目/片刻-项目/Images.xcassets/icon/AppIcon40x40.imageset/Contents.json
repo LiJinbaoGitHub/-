@@ -6,23 +6,23 @@
     },
     {
       "idiom" : "iphone",
-      "filename" : "AppIcon40x40@2x.png",
-      "scale" : "2x"
+      "scale" : "2x",
+      "filename" : "AppIcon40x40@2x.png"
     },
     {
       "idiom" : "iphone",
-      "filename" : "AppIcon40x40@3x.png",
-      "scale" : "3x"
+      "scale" : "3x",
+      "filename" : "AppIcon40x40@3x.png"
     },
     {
       "idiom" : "ipad",
-      "filename" : "AppIcon40x40~ipad.png",
-      "scale" : "1x"
+      "scale" : "1x",
+      "filename" : "AppIcon40x40~ipad.png"
     },
     {
       "idiom" : "ipad",
-      "filename" : "AppIcon40x40@2x~ipad.png",
-      "scale" : "2x"
+      "scale" : "2x",
+      "filename" : "AppIcon40x40@2x~ipad.png"
     }
   ],
   "info" : {
