@@ -7,8 +7,10 @@
 //
 
 #import "PKLandingViewController.h"
-#import "PKThirdLandingView.h"//第三方登录view
-#import "PKEmailLandingView.h"//邮箱正常登陆
+#import "PKThirdLandingView.h"  //第三方登录view
+#import "PKEmailLandingView.h"  //邮箱正常登陆
+#import "PKLoginViewController.h"  //注册
+
 @interface PKLandingViewController ()<UITextFieldDelegate>
 
 @property (strong, nonatomic) PKThirdLandingView *thirdLandingView;
@@ -102,6 +104,7 @@
         _loginBtn = [UIButton buttonWithType:(UIButtonTypeCustom)];
         [_loginBtn setTitle:@"注册" forState:(UIControlStateNormal)];
         [_loginBtn setTitleColor:[UIColor blackColor] forState:(UIControlStateNormal)];
+        [_loginBtn addTarget:self action:@selector(pushToLoginViewController) forControlEvents:(UIControlEventTouchUpInside)];
     }
     return _loginBtn;
 }
@@ -159,7 +162,11 @@
     }];
 }
 
-
+//进入注册页面
+- (void)pushToLoginViewController{
+    PKLoginViewController *loginView = [[PKLoginViewController alloc]init];
+    [self presentViewController:loginView animated:YES completion:nil];
+}
 
 
 @end

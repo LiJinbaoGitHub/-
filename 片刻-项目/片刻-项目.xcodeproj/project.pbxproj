@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042C3AA31C4C945D00F0CBD9 /* PKLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042C3AA21C4C945D00F0CBD9 /* PKLoginViewController.m */; };
+		042C3AAA1C4C94A200F0CBD9 /* PKLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 042C3AA91C4C94A200F0CBD9 /* PKLoginView.m */; };
 		0431084D1C473E4E00118163 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431084C1C473E4E00118163 /* main.m */; };
 		043108501C473E4E00118163 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431084F1C473E4E00118163 /* AppDelegate.m */; };
 		043108561C473E4E00118163 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043108541C473E4E00118163 /* Main.storyboard */; };
@@ -118,6 +120,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		042C3AA11C4C945D00F0CBD9 /* PKLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKLoginViewController.h; path = "注册/PKLoginViewController.h"; sourceTree = "<group>"; };
+		042C3AA21C4C945D00F0CBD9 /* PKLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKLoginViewController.m; path = "注册/PKLoginViewController.m"; sourceTree = "<group>"; };
+		042C3AA81C4C94A200F0CBD9 /* PKLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKLoginView.h; path = "注册/view/PKLoginView.h"; sourceTree = "<group>"; };
+		042C3AA91C4C94A200F0CBD9 /* PKLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKLoginView.m; path = "注册/view/PKLoginView.m"; sourceTree = "<group>"; };
 		043108471C473E4E00118163 /* 片刻-项目.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "片刻-项目.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0431084B1C473E4E00118163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0431084C1C473E4E00118163 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -342,6 +348,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		042C3AA01C4C93EF00F0CBD9 /* 注册 */ = {
+			isa = PBXGroup;
+			children = (
+				042C3AA11C4C945D00F0CBD9 /* PKLoginViewController.h */,
+				042C3AA21C4C945D00F0CBD9 /* PKLoginViewController.m */,
+				042C3AA41C4C946600F0CBD9 /* view */,
+			);
+			name = "注册";
+			sourceTree = "<group>";
+		};
+		042C3AA41C4C946600F0CBD9 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				042C3AA81C4C94A200F0CBD9 /* PKLoginView.h */,
+				042C3AA91C4C94A200F0CBD9 /* PKLoginView.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
 		0431083E1C473E4E00118163 = {
 			isa = PBXGroup;
 			children = (
@@ -363,6 +388,7 @@
 		043108491C473E4E00118163 /* 片刻-项目 */ = {
 			isa = PBXGroup;
 			children = (
+				042C3AA01C4C93EF00F0CBD9 /* 注册 */,
 				048710BD1C490FF300F44013 /* 登陆 */,
 				048710981C48CEA900F44013 /* 左侧菜单 */,
 				043109BD1C4776B500118163 /* 首页 */,
@@ -885,6 +911,7 @@
 				043109B61C4773C300118163 /* UIScrollView+MJExtension.m in Sources */,
 				0431092F1C47420C00118163 /* ZJPNavigationController.m in Sources */,
 				048710C61C490FF300F44013 /* PKEmailLandingView.m in Sources */,
+				042C3AAA1C4C94A200F0CBD9 /* PKLoginView.m in Sources */,
 				04310A471C47921200118163 /* NSArray+MASAdditions.m in Sources */,
 				043109291C47420C00118163 /* UIColor+Extension.m in Sources */,
 				048710C71C490FF300F44013 /* PKThirdLandingView.m in Sources */,
@@ -953,6 +980,7 @@
 				043108E21C473F7A00118163 /* AFURLRequestSerialization.m in Sources */,
 				043109AB1C4773C300118163 /* MJRefreshGifHeader.m in Sources */,
 				043109B01C4773C300118163 /* MJChiBaoZiHeader.m in Sources */,
+				042C3AA31C4C945D00F0CBD9 /* PKLoginViewController.m in Sources */,
 				043109051C473F7A00118163 /* UIImage+WebP.m in Sources */,
 				043109281C47420C00118163 /* UIBarButtonItem+Helper.m in Sources */,
 				043108E51C473F7A00118163 /* AFNetworkActivityIndicatorManager.m in Sources */,
